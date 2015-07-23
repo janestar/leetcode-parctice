@@ -11,7 +11,7 @@ public:
          }
          if(pos<0) {
          	reverse(nums.begin(),nums.end());
-            return;
+            return;                             
          }
          for(auto i=size-1;i>pos;i--){
             if(nums[i]>nums[pos]){
